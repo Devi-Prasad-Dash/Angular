@@ -18,6 +18,7 @@ type User = {
 @Component({
   selector: 'app-user',
   imports: [CardComponent],
+  standalone: true,
   templateUrl: './user.component.html',
   styleUrl: './user.component.css'
 })
